@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ceylon Spice</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <!-- navbar section -->
+    <section id="header" >
+
+        <div class="logo"><span class="one">Ceylon </span><span class="two">Spice</span></div>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li id="lg-bag"><a href="cart.html" class="active"><i class="fa-solid fa-cart-shopping fa-2x"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping "></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+
+        </div>
+
+    </section>
+
+    <!-- hero section -->
+    <section id="page-header" class="about-header cart">
+        <h2 class="color">💙Thank you for your purchasers💚</h2>
+        <p></p>
+    </section>
+
+
+
+
+<!-- cart table section  -->
+<section id="cart" class="section-p1">
+    <table width="100%">
+        <thead>
+            <tr>
+                <td>Remove</td>
+                <td>Image</td>
+                <td>Product</td>
+                <td>price</td>
+                <td>Quantity</td>
+                <td>Subtotal</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                <td><img src="img1/cinnamon/ci1.jpg" alt=""></td>
+                <td>Ceylon cinnamon</td>
+                <td>$38</td>
+                <td><input type="number" value="1"></td>
+                <td>$38</td>
+            </tr>
+            <tr>
+                <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                <td><img src="img1/tumeric/tu1.jpg" alt=""></td>
+                <td>Tumeric powder</td>
+                <td>$12</td>
+                <td><input type="number" value="1"></td>
+                <td>$12</td>
+            </tr>
+            <tr>
+                <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                <td><img src="img1/saffron/s1.jpg" alt=""></td>
+                <td>Saffron</td>
+                <td>$78</td>
+                <td><input type="number" value="1"></td>
+                <td>$78</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+
+
+
+<!-- add cart and coupon section -->
+<section id="cart-add" class="section-p1">
+    <div id="coupon">
+        <h3>Apply Coupon</h3>
+        <div>
+            <input type="text" placeholder="Enter Your Coupon">
+            <button class="normal">Apply</button>
+        </div>
+    </div>
+
+    <div id="subtotal">
+        <h3>Cart Totals</h3>
+        <table>
+            <tr>
+                <td>Cart Subtotal</td>
+                <td>$ 128</td>
+            </tr>
+            <tr>
+                <td>Shipping</td>
+                <td>Free</td>
+            </tr>
+            <tr>
+                <td><strong>Total</strong></td>
+                <td><strong>$ 128</strong></td>
+            </tr>
+        </table>
+        <button class="normal">Proceed to checkout</button>
+    </div>
+</section>
+
+
+
+
+    <!-- Footer -->
+    <footer class="section-p1">
+        <div class="col">
+            <img src="img1/logo.png" alt="" class="logo">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> 562 New Town, Street 32, Anuradhapura</p>
+            <p><strong>Phone:</strong>+94 2222 365 / (+94) 01 2345 6789</p>
+            <p><strong>Hours:</strong> 10:00 - 18:00, Mon - sat</p>
+            <div class="follow">
+                <h4>follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Getaways</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p> c 2021, SJ117 etc - HTML CSS E-commerce Template
+            </p>
+        </div>
+    </footer>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
